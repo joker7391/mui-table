@@ -1,12 +1,15 @@
-import "./index.css";
-// import DataTable from "./components/DataTable";
+import './index.css'
 import SimpleTable from "./components/SimpleTable";
+import DataTable from "./components/DataTable";
 
 function App() {
   return (
-    <div style={{ padding: 10 }}>
-      <SimpleTable />
-      {/* <DataTable /> */}
+    <div style={{ backgroundColor: "#1c1c1c" }}>
+      <div>
+        <SimpleTable />
+        <br />
+        <DataTable />
+      </div>
     </div>
   );
 }
