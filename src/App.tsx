@@ -1,9 +1,12 @@
-import "./App.css";
+import "./index.css";
+// import DataTable from "./components/DataTable";
+import SimpleTable from "./components/SimpleTable";
 
 function App() {
   return (
-    <div>
-      <h2>Hello</h2>
+    <div style={{ padding: 10 }}>
+      <SimpleTable />
+      {/* <DataTable /> */}
     </div>
   );
 }
